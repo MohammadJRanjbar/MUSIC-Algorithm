@@ -1,6 +1,6 @@
 # MUSIC Algorithm:
 
-<div class="text-gray-dark mb-2">
+<div class="$bg-blue-light">
 
 Multiple SIgnal Classification
 
