@@ -32,7 +32,7 @@ is the candidate steering vector. The locations of the {\displaystyle p}p larges
 
 {\displaystyle {\hat {\omega }}=\arg \max _{\omega }\;{\hat {P}}_{MU}(e^{j\omega }).}{\displaystyle {\hat {\omega }}=\arg \max _{\omega }\;{\hat {P}}_{MU}(e^{j\omega }).}
 MUSIC is a generalization of Pisarenko's method, and it reduces to Pisarenko's method when {\displaystyle M=p+1}{\displaystyle M=p+1}. In Pisarenko's method, only a single eigenvector is used to form the denominator; and the eigenvector is interpreted as a set of autoregressive coefficients, whose zeros can be found analytically or with polynomial root finding algorithms. In contrast, MUSIC assumes that several such functions have been added together, so zeros may not be present. Instead there are local minima, which can be located by computationally searching the estimation function for peaks.
-
+</p>
 in this code you have some data (test) and you can estimate direction of arrival of singals with MUSIC algorithm.
 I believe there is enough comments in the code to understand it.
 
