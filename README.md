@@ -2,7 +2,7 @@
 
 <div class="$bg-blue-light">
 
-Multiple SIgnal Classification
+<style>H1{color:Blue;}Multiple SIgnal Classification</style>
 
 MUSIC method assumes that a signal vector, <img src="https://render.githubusercontent.com/render/math?math=x">, consists of {\displaystyle p}p complex exponentials, whose frequencies {\displaystyle \omega }\omega  are unknown, in the presence of Gaussian white noise, {\displaystyle \mathbf {n} }\mathbf {n} , as given by the linear model
 
