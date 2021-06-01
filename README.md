@@ -5,8 +5,12 @@ MUSIC method assumes that a signal vector, <img src="https://render.githubuserco
 
 <img src="https://render.githubusercontent.com/render/math?math=x={As %2B n}" width="100"> 
 
-{\displaystyle \mathbf {x} =\mathbf {A} \mathbf {s} +\mathbf {n} ,}{\displaystyle \mathbf {x} =\mathbf {A} \mathbf {s} +\mathbf {n} ,}
-where {\displaystyle \mathbf {A} =[\mathbf {a} (\omega _{1}),\cdots ,\mathbf {a} (\omega _{p})]}{\displaystyle \mathbf {A} =[\mathbf {a} (\omega _{1}),\cdots ,\mathbf {a} (\omega _{p})]} is an {\displaystyle M\times p}{\displaystyle M\times p} Vandermonde matrix of steering vectors {\displaystyle \mathbf {a} (\omega )=[1,e^{j\omega },e^{j2\omega },\ldots ,e^{j(M-1)\omega }]^{T}}{\displaystyle \mathbf {a} (\omega )=[1,e^{j\omega },e^{j2\omega },\ldots ,e^{j(M-1)\omega }]^{T}} and {\displaystyle \mathbf {s} =[s_{1},\ldots ,s_{p}]^{T}}{\displaystyle \mathbf {s} =[s_{1},\ldots ,s_{p}]^{T}} is the amplitude vector. The {\displaystyle M\times M}M\times M autocorrelation matrix of {\displaystyle \mathbf {x} }\mathbf {x}  is then given by
+<img src="https://render.githubusercontent.com/render/math?math= {{x} = {A} {s} + {n} ,}{  {x} ={A} {s} + {n} ,}>
+          
+          
+          
+where {\mathbf {A} =[\mathbf {a} (\omega _{1}),\cdots ,\mathbf {a} (\omega _{p})]}{ \mathbf {A} =[\mathbf {a} (\omega _{1}),\cdots ,\mathbf {a} (\omega _{p})]}" width="100">
+is an {\displaystyle M\times p}{\displaystyle M\times p} Vandermonde matrix of steering vectors {\displaystyle \mathbf {a} (\omega )=[1,e^{j\omega },e^{j2\omega },\ldots ,e^{j(M-1)\omega }]^{T}}{\displaystyle \mathbf {a} (\omega )=[1,e^{j\omega },e^{j2\omega },\ldots ,e^{j(M-1)\omega }]^{T}} and {\displaystyle \mathbf {s} =[s_{1},\ldots ,s_{p}]^{T}}{\displaystyle \mathbf {s} =[s_{1},\ldots ,s_{p}]^{T}} is the amplitude vector. The {\displaystyle M\times M}M\times M autocorrelation matrix of {\displaystyle \mathbf {x} }\mathbf {x}  is then given by
 
 {\displaystyle \mathbf {R} _{x}=\mathbf {A} \mathbf {R} _{s}\mathbf {A} ^{H}+\sigma ^{2}\mathbf {I} ,}{\displaystyle \mathbf {R} _{x}=\mathbf {A} \mathbf {R} _{s}\mathbf {A} ^{H}+\sigma ^{2}\mathbf {I} ,}
 where {\displaystyle \sigma ^{2}}\sigma ^{2} is the noise variance and {\displaystyle \mathbf {R} _{s}}{\displaystyle \mathbf {R} _{s}} is the autocorrelation of {\displaystyle \mathbf {s} }\mathbf {s} .
