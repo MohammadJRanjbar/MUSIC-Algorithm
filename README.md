@@ -1,7 +1,7 @@
 # MUSIC Algorithm:
 Multiple SIgnal Classification
 
-MUSIC method assumes that a signal vector, <img src="https://render.githubusercontent.com/render/math?math=x"> }\mathbf {x} , consists of {\displaystyle p}p complex exponentials, whose frequencies {\displaystyle \omega }\omega  are unknown, in the presence of Gaussian white noise, {\displaystyle \mathbf {n} }\mathbf {n} , as given by the linear model
+MUSIC method assumes that a signal vector, ![formula]( src="https://render.githubusercontent.com/render/math?math=x") }\mathbf {x} , consists of {\displaystyle p}p complex exponentials, whose frequencies {\displaystyle \omega }\omega  are unknown, in the presence of Gaussian white noise, {\displaystyle \mathbf {n} }\mathbf {n} , as given by the linear model
 
 {\displaystyle \mathbf {x} =\mathbf {A} \mathbf {s} +\mathbf {n} ,}{\displaystyle \mathbf {x} =\mathbf {A} \mathbf {s} +\mathbf {n} ,}
 where {\displaystyle \mathbf {A} =[\mathbf {a} (\omega _{1}),\cdots ,\mathbf {a} (\omega _{p})]}{\displaystyle \mathbf {A} =[\mathbf {a} (\omega _{1}),\cdots ,\mathbf {a} (\omega _{p})]} is an {\displaystyle M\times p}{\displaystyle M\times p} Vandermonde matrix of steering vectors {\displaystyle \mathbf {a} (\omega )=[1,e^{j\omega },e^{j2\omega },\ldots ,e^{j(M-1)\omega }]^{T}}{\displaystyle \mathbf {a} (\omega )=[1,e^{j\omega },e^{j2\omega },\ldots ,e^{j(M-1)\omega }]^{T}} and {\displaystyle \mathbf {s} =[s_{1},\ldots ,s_{p}]^{T}}{\displaystyle \mathbf {s} =[s_{1},\ldots ,s_{p}]^{T}} is the amplitude vector. The {\displaystyle M\times M}M\times M autocorrelation matrix of {\displaystyle \mathbf {x} }\mathbf {x}  is then given by
